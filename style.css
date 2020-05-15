@@ -32,6 +32,7 @@ nav h1{
 	text-align: center;
 	
 }
+
 .imgId{
 	display: flex;
 	width: 150px;
@@ -58,6 +59,7 @@ header{
 }
 
 section h1{
+	font-size: 2em;
 	padding-right: auto;
 border-bottom: 1px #FF7043 solid;
 	  }
@@ -65,4 +67,14 @@ border-bottom: 1px #FF7043 solid;
 .formation{
 
 	
+}
+
+ul {
+list-style-type: none;
+}
+li{
+	padding:20px;
+}
+.description{
+	margin-left: 300px;
 }
