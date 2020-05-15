@@ -1,2 +1,40 @@
 ﻿body {
+	display: flex;
+	width: auto;
+}
+
+
+nav
+{	
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #FF7043;
+	width: 25%;
+
+}
+
+.imgId{
+	display: flex;
+	width: 150px;
+	height: 150px; 
+	margin:auto;
+	border-radius: 200%;
+
+}
+
+#conteneur{
+	margin-left: 50px;
+}
+
+header{
+	padding-bottom: 50px;
+}
+
+section{
+	  }
+
+.formation{
+
+	
 }
