@@ -1,6 +1,8 @@
-﻿body {
-width: 900px; 
-margin: auto; 
+﻿/*Général*/
+
+body{
+width: 900px;
+margin: auto;
 }
 
 h1{
@@ -13,12 +15,13 @@ h1{
 	
  /*flex-direction: column;*/
 }
+
 /*partie de gauche */
 
 .gauche {
 	padding-top: 30px;
 	background-color: #FF7043;
-	flex:1;
+	flex:1.5;
 }
 
 .imgId{
@@ -59,16 +62,7 @@ article {
 
 section h1{
 	font-size: 2em;
-
-.fas, .far {
-	color:#FF7043;
-	font-size: 0.9em;
-	padding-right: 10px;
-}
-.formation{
-
-	
-	  }
+	border-bottom: 1px #FF7043 solid;
 }
 
 ul {
@@ -77,6 +71,12 @@ list-style-type: none;
 
 li{
 	padding:20px;
+}
+
+.fas, .far {
+	font-size: 0.9em;
+	color : #FF7043;
+	padding-right: 10px;
 }
 
 .description{
