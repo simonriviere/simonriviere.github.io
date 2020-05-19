@@ -1,7 +1,7 @@
 ﻿/*Général*/
 
 body{
-width: 900px;
+width: 82%;
 margin: auto;
 }
 h1{
@@ -18,6 +18,7 @@ h1{
 /*partie de gauche */
 
 .gauche {
+	
 	padding-top: 30px;
 	background-color: #FF7043;
 	flex:1.5;
@@ -40,6 +41,19 @@ h3, p  {
 	padding-left: 30px;
 	padding-right: 30px;
 
+}
+nav li {
+	display: inline;
+}
+
+#loisir .fas {
+	font-size: 1.3em;
+	width: 1.2em;
+	height: 1.2em;
+	color : white;
+	border : 1px white solid ;
+	border-radius: 50%;
+	padding :4%;
 }
 
 /*Partie de droite */
@@ -72,7 +86,10 @@ li{
 	padding:20px;
 }
 
-.fas, .far {
+.point{
+	font-size: 0.4em;
+}
+section .fas,section .far {
 	font-size: 0.9em;
 	color : #FF7043;
 	padding-right: 10px;
