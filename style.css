@@ -3,6 +3,11 @@
 #A1D6E2 : bleu clair
 #BCBABE : gris foncé
 #F1F1F2 : gris clair
+
+choix des polices 
+font-family: 'Amatic SC', cursive;
+font-family: 'DM Mono', monospace;
+font-family: 'Open Sans Condensed', sans-serif;
 */
 /*Général*/
 
@@ -13,6 +18,7 @@ margin: auto;
 
 h1{
 	text-transform: uppercase; /* tout en majuscule */
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #conteneur{
@@ -25,7 +31,6 @@ h1{
 /*partie de gauche */
 
 .gauche {
-	
 	padding-top: 30px;
 	background-color: #1995AD;
 	flex:1.5;
@@ -33,16 +38,18 @@ h1{
 
 .imgId{
 	display: flex;
-	width: 150px;
-	height: 150px; 
+	width: 200px;
+	height: 210px; 
 	margin:auto;
 	border-radius: 200%;
 }
 
 nav h1{
 	background-color: #BCBABE;
+	color: #1995AD;
 	text-align: center;
-
+	font-size: 1.6em;
+	padding: 10px;
 }
 
 h3, p  {
@@ -70,18 +77,37 @@ nav li {
 .droite{
 	/*pour essais border : 1px red solid; */
 	flex:3;
-	margin: 2%;
 
+	margin-left: 5%;
 }
 
+/*header*/
 header{
-	padding-bottom: 2%;
-}
-
-article {
+	padding-top: 60px;
+	font-family: 'Open Sans Condensed', sans-serif;
 
 }
+header h1{
+	font-size: 3.8em;
+	margin: 0px;
+}
+.prenom{
+	color: #1995AD;
+}
+.devel{
+	border-bottom: 1px #1995AD solid;
+}
+header h2{
+	font-size: 2em;
+	margin: 0px;
+	
+}
 
+
+/*section*/ 
+.formation{
+	padding-top: 70px;
+}
 section h1{
 	font-size: 2em;
 	border-bottom: 1px #1995AD solid;
