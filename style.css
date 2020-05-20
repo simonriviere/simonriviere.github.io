@@ -93,7 +93,7 @@ nav li {
 header{
 	padding-top: 60px;
 	font-family: 'Open Sans Condensed', sans-serif;
-
+	padding-bottom: 70px;
 }
 header h1{
 	font-size: 3.8em;
@@ -113,28 +113,39 @@ header h2{
 }
 
 /*section*/ 
-.formation{
-	padding-top: 70px;
-}
-
 section h2{
 	font-size: 2em;
 	border-bottom: 1px #1995AD solid;
 }
 
 ul {
-list-style-type: none;
+	list-style-type: none;
+    padding-left:  0px;
+    margin-top: 6px;
+    margin-bottom: 30px;
 }
 
-.point{
-	font-size: 0.4em;
+td{
+	border : 1px solid black;
 }
-section .fas, section .far {
-	font-size: 0.9em;
+.td1{
+	width :150px;
+}
+
+.td2{
+	width: 600px;
+}
+
+td .fas{
+	font-size: 0.4em;
+	color : #1995AD;
+	padding-right: 16px;
+
+}
+td .far {
+	font-size: 0.8em;
 	color : #1995AD;
 	padding-right: 10px;
 }
 
-.description{
-	margin-left: 330px;
-}
+
