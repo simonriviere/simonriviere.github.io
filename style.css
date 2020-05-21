@@ -17,6 +17,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 /*Général*/
 
 
+
 body{
 width: 82%;
 margin: auto;
@@ -38,16 +39,26 @@ h1, h2{
 /*partie de gauche */
 
 .gauche {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	padding-top: 30px;
 	background-color: #1995AD;
 	flex:1.5;
 }
+.contact{
+	flex:1;
+}
+.propos{
+	flex:5;
+}
+.loisirs{flex:1;
+}
 
 img{
-	display: flex;
+	align-self: center;
 	width: 200px;
-	height: 210px; 
-	margin:auto;
+	height: 210px; 	
 	border-radius: 200%;
 }
 
@@ -69,7 +80,7 @@ h3, p  {
 	display: flex;
 	justify-content: space-around;
 	padding-left: 0px;
-
+	align-self: flex-end;
 }
 aside li {
 	
