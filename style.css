@@ -51,7 +51,7 @@ img{
 	border-radius: 200%;
 }
 
-nav h2{
+aside h2{
 	background-color: #BCBABE;
 	color: #1995AD;
 	text-align: center;
@@ -71,7 +71,7 @@ h3, p  {
 	padding-left: 0px;
 
 }
-nav li {
+aside li {
 	
 	text-decoration: none;
 		
