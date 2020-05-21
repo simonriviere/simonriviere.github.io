@@ -120,7 +120,7 @@ header h2{
 }
 
 /*section*/ 
-section h2{
+.chapitre h2{
 	font-size: 2.2em;
 	border-bottom: 1px #1995AD solid;
 	margin-bottom: 0px;
