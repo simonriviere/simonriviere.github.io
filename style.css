@@ -35,17 +35,25 @@ h1, h2{
  /*flex-direction: column;*/
 }
 
+ul {
+	list-style-type: none;
+    padding-left:  0px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+
 
 /*partie de gauche */
 
 .gauche {
-	display: flex;
+	display: flex; 
 	flex-direction: column;
-	justify-content: flex-start;
 	padding-top: 30px;
 	background-color: #1995AD;
 	flex:1.5;
 }
+
 .contact{
 	flex:1;
 }
@@ -55,7 +63,7 @@ h1, h2{
 .loisirs{flex:1;
 }
 
-img{
+.gauche img{
 	align-self: center;
 	width: 200px;
 	height: 210px; 	
@@ -82,11 +90,6 @@ aside h3, aside p  {
 	padding-left: 0px;
 	align-self: flex-end;
 }
-aside li {
-	
-	text-decoration: none;
-		
-}
 
 #loisir .fas {
 	font-size: 2em;
@@ -103,7 +106,7 @@ aside li {
 
 .droite{
 	/*pour essais border : 1px red solid; */
-	flex:3;
+	flex: 3;
 	margin-left: 5%;
 }
 
@@ -131,7 +134,8 @@ header h2{
 }
 
 /*section*/ 
-.chapitre h2{
+.droite section h2
+{
 	font-size: 2.2em;
 	border-bottom: 1px #1995AD solid;
 	margin-bottom: 0px;
@@ -143,12 +147,6 @@ h2 .fas{
 	padding-right: 30px;
 }
 
-ul {
-	list-style-type: none;
-    padding-left:  0px;
-    margin-top: 6px;
-    margin-bottom: 30px;
-}
 
 table{
  border-collapse: collapse;
@@ -156,12 +154,12 @@ table{
 }
 
 .td1{
-	padding-top: 50px;
+	padding-top: 30px;
 	width :230px;
 }
 
 .td2{
-	padding-top:50px;
+	padding-top:30px;
 	font-size: 1.6em;
 	width: 550px;
 }
@@ -195,9 +193,11 @@ td .far {
 }
 
 /*Expériences pro */
+.experience{
+	padding-top: 30px;
+}
 .td4 h3 {
 	padding: 0px;
-
 	margin: 0px;
 	font-weight: normal;
 	text-decoration: underline;
@@ -211,4 +211,31 @@ td .far {
 .td4 p{
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+/*recommandation*/
+
+.recommandation {
+	padding-top: 30px;
+	padding-bottom:50px;
+}
+
+.recommandation ul{
+	margin-top: 30px ;
+}
+
+#reco{
+	display: flex;
+	
+}
+
+.jean{
+	flex: 1;
+}
+.pierre{
+	flex: 1;
+}
+
+.email{
+	font-size: 0.9em;
 }
