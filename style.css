@@ -84,6 +84,17 @@ aside h3, aside p  {
 
 }
 
+/*les liens*/
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color :#A1D6E2 ;
+}
+
+
 #loisir{
 	display: flex;
 	justify-content: space-around;
@@ -116,6 +127,7 @@ header{
 	font-family: 'Open Sans Condensed', sans-serif;
 	padding-bottom: 70px;
 }
+
 header h1{
 	font-size: 3.8em;
 	margin: 0px;
