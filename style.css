@@ -70,7 +70,7 @@ aside h2{
 	padding: 10px;
 }
 
-h3, p  {
+aside h3, aside p  {
 	padding-left: 30px ;
 	padding-right: 30px;
 
@@ -194,4 +194,21 @@ td .far {
 	padding-right: 10px;
 }
 
+/*Expériences pro */
+.td4 h3 {
+	padding: 0px;
 
+	margin: 0px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.td4 h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.td4 p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
