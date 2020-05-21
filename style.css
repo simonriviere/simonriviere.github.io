@@ -1,8 +1,8 @@
 /*Mémo couleurs
-#1995AD : bleu foncé
-#A1D6E2 : bleu clair
-#BCBABE : gris foncé
-#F1F1F2 : gris clair
+ bleu foncé #00ACC1
+ bleu clair #B2EBF2
+ gris foncé #CFD8DC
+ gris clair #F5F5F5
 
 choix des polices 
 font-family: 'Amatic SC', cursive;
@@ -15,8 +15,6 @@ font-family: 'Open Sans Condensed', sans-serif;
 */
 
 /*Général*/
-
-
 
 body{
 width: 82%;
@@ -42,7 +40,14 @@ ul {
     margin-bottom: 30px;
 }
 
-
+/*Média query*/
+@media all and (max-width: 1024px)
+{
+#conteneur {
+	display: flex;
+	flex-direction: column;
+}
+}
 
 /*partie de gauche */
 
@@ -50,7 +55,7 @@ ul {
 	display: flex; 
 	flex-direction: column;
 	padding-top: 30px;
-	background-color: #1995AD;
+	background-color: #00ACC1;
 	flex:1.5;
 }
 
@@ -71,8 +76,8 @@ ul {
 }
 
 aside h2{
-	background-color: #BCBABE;
-	color: #1995AD;
+	background-color: #CFD8DC;
+	color: #00ACC1;
 	text-align: center;
 	font-size: 1.6em;
 	padding: 10px;
@@ -91,7 +96,7 @@ a{
 }
 
 a:hover{
-	color :#A1D6E2 ;
+	color :#B2EBF2 ;
 }
 
 
@@ -108,8 +113,8 @@ a:hover{
 	font-size: 2em;
 	width: 1.2em;
 	height: 1.2em;
-	color : #BCBABE ;
-	border : 1px #BCBABE solid ;
+	color : #CFD8DC ;
+	border : 1px #CFD8DC solid ;
 	border-radius: 50%;
 	padding: 12px;
 
@@ -136,10 +141,10 @@ header h1{
 	margin: 0px;
 }
 .prenom{
-	color: #1995AD;
+	color: #00ACC1;
 }
 .devel{
-	border-bottom: 1px #1995AD solid;
+	border-bottom: 1px #00ACC1 solid;
 }
 
 header h2{
@@ -152,13 +157,13 @@ header h2{
 .droite section h2
 {
 	font-size: 2.2em;
-	border-bottom: 1px #1995AD solid;
+	border-bottom: 1px #00ACC1 solid;
 	margin-bottom: 0px;
 }
 
 h2 .fas{
 	font-size: 1em;
-	color : #1995AD;
+	color : #00ACC1;
 	padding-right: 30px;
 }
 
@@ -196,14 +201,14 @@ table{
 
 td .fas{
 	font-size: 0.4em;
-	color : #1995AD;
+	color : #00ACC1;
 	padding-right: 16px;
 
 }
 
 td .far {
 	font-size: 0.8em;
-	color : #1995AD;
+	color : #00ACC1;
 	padding-right: 10px;
 }
 
