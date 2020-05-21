@@ -27,10 +27,7 @@ h1, h2{
 }
 
 #conteneur{
-	/*A SUPPRIMER  border:1px solid blue; */
 	display: flex;
-	
- /*flex-direction: column;*/
 }
 
 ul {
@@ -43,9 +40,17 @@ ul {
 /*Média query*/
 @media all and (max-width: 1024px)
 {
+body{
+	width: 100%;
+
+}
 #conteneur {
 	display: flex;
 	flex-direction: column;
+}
+
+.droite{
+	padding-right: 50px;
 }
 }
 
@@ -126,7 +131,7 @@ a:hover{
 .droite{
 	/*pour essais border : 1px red solid; */
 	flex: 3;
-	margin-left: 5%;
+	margin-left: 50px;
 }
 
 /*header*/
