@@ -45,14 +45,20 @@ body{
 	width: 100%;
 
 }
-#conteneur {
+#titre{
 	display: flex;
-	flex-direction: column;
-
+	flex-direction: column-reverse;
 }
 
-.droite{
-	padding-right: 50px;
+.ecrit{
+	text-align: center;
+	padding-top: 60px;
+}
+
+.img{
+	margin-top: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .propos p  {
@@ -61,6 +67,18 @@ body{
 	text-align: justify;
 
 }
+
+#conteneur {
+	display: flex;
+	flex-direction: column;
+}
+
+.droite{
+	text-align: center;	
+	padding-right: 50px;
+
+}
+
 
 .contact{	
 	text-align: center;
@@ -78,16 +96,19 @@ header{
 }
 .img{
 	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
 	background-color: #00ACC1; 
 	flex: 1.5;
 }
+@media all and (min-width: 1024px){
+
 .ecrit{
 	padding-top: 60px;
 	padding-left: 50px;
 	flex: 3;
 }
-
+}
 header h1{
 	font-size: 3.8em;
 	margin: 0px;
@@ -116,7 +137,6 @@ header img{
 .gauche {
 	display: flex; 
 	flex-direction: column;
-	padding-top: 30px;
 	background-color: #00ACC1;
 	flex:1.5;
 }
@@ -138,9 +158,12 @@ aside h2{
 	text-align: center;
 	font-size: 1.6em;
 	padding: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 @media all and (min-width: 1024px){
+
 aside h3, aside p  {
 	padding-left: 30px ;
 	padding-right: 30px;
@@ -199,7 +222,9 @@ a:hover{
 	border-bottom: 1px #00ACC1 solid;
 	margin-bottom: 0px;
 }
-
+.droite td{
+	text-align: justify;
+}
 h2 .fas{
 	font-size: 1em;
 	color : #00ACC1;
