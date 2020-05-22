@@ -28,6 +28,7 @@ h1, h2{
 
 #conteneur{
 	display: flex;
+
 }
 
 ul {
@@ -47,13 +48,69 @@ body{
 #conteneur {
 	display: flex;
 	flex-direction: column;
+
 }
 
 .droite{
 	padding-right: 50px;
 }
+
+.propos p  {
+	padding-left: 30px ;
+	padding-right: 30px;
+	text-align: justify;
+
 }
 
+.contact{	
+	text-align: center;
+}
+
+}
+/*header */ 
+
+header{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#titre{
+	display: flex;
+
+}
+.img{
+	padding-top: 50px;
+	text-align: center;
+	background-color: #00ACC1; 
+	flex: 1.5;
+}
+.ecrit{
+	padding-top: 60px;
+	padding-left: 50px;
+	flex: 3;
+}
+
+header h1{
+	font-size: 3.8em;
+	margin: 0px;
+}
+.prenom{
+	color: #00ACC1;
+}
+.devel{
+	border-bottom: 1px #00ACC1 solid;
+}
+
+header h2{
+	font-size: 2em;
+	margin: 0px;
+	
+}
+
+header img{
+	align-self: center;
+	width: 200px;
+	height: 210px; 	
+	border-radius: 200%;
+}
 /*partie de gauche */
 
 .gauche {
@@ -73,12 +130,7 @@ body{
 .loisirs{flex:1;
 }
 
-.gauche img{
-	align-self: center;
-	width: 200px;
-	height: 210px; 	
-	border-radius: 200%;
-}
+
 
 aside h2{
 	background-color: #CFD8DC;
@@ -88,9 +140,13 @@ aside h2{
 	padding: 10px;
 }
 
+@media all and (min-width: 1024px){
 aside h3, aside p  {
 	padding-left: 30px ;
 	padding-right: 30px;
+	text-align: justify;
+
+}
 
 }
 
@@ -134,29 +190,7 @@ a:hover{
 	margin-left: 50px;
 }
 
-/*header*/
-header{
-	padding-top: 60px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	padding-bottom: 70px;
-}
 
-header h1{
-	font-size: 3.8em;
-	margin: 0px;
-}
-.prenom{
-	color: #00ACC1;
-}
-.devel{
-	border-bottom: 1px #00ACC1 solid;
-}
-
-header h2{
-	font-size: 2em;
-	margin: 0px;
-	
-}
 
 /*section*/ 
 .droite section h2
