@@ -1,14 +1,19 @@
 /*Mémo couleurs
-#1995AD : bleu foncé
-#A1D6E2 : bleu clair
-#BCBABE : gris foncé
-#F1F1F2 : gris clair
+ bleu foncé #00ACC1
+ bleu clair #B2EBF2
+ gris foncé #CFD8DC
+ gris clair #F5F5F5
 
 choix des polices 
 font-family: 'Amatic SC', cursive;
 font-family: 'DM Mono', monospace;
 font-family: 'Open Sans Condensed', sans-serif;
+
+à faire: 
+- vérifier l'espace entre les puces et les h2 de la partie de droite (formation expérience ... ) car pas le meme écart.
+-
 */
+
 /*Général*/
 
 body{
@@ -22,100 +27,8 @@ h1, h2{
 }
 
 #conteneur{
-	/*A SUPPRIMER  border:1px solid blue; */
 	display: flex;
-	
- /*flex-direction: column;*/
-}
 
-/*partie de gauche */
-
-.gauche {
-	padding-top: 30px;
-	background-color: #1995AD;
-	flex:1.5;
-}
-
-.imgId{
-	display: flex;
-	width: 200px;
-	height: 210px; 
-	margin:auto;
-	border-radius: 200%;
-}
-
-nav h2{
-	background-color: #BCBABE;
-	color: #1995AD;
-	text-align: center;
-	font-size: 1.6em;
-	padding: 10px;
-}
-
-h3, p  {
-	padding-left: 30px ;
-	padding-right: 30px;
-
-}
-
-#loisir{
-	display: flex;
-	justify-content: space-around;
-	padding-left: 0px;
-
-}
-nav li {
-	
-	text-decoration: none;
-		
-}
-
-#loisir .fas {
-	font-size: 2em;
-	width: 1.2em;
-	height: 1.2em;
-	color : #BCBABE ;
-	border : 1px #BCBABE solid ;
-	border-radius: 50%;
-	padding: 12px;
-}
-
-
-/*Partie de droite */
-
-.droite{
-	/*pour essais border : 1px red solid; */
-	flex:3;
-	margin-left: 5%;
-}
-
-/*header*/
-header{
-	padding-top: 60px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	padding-bottom: 70px;
-}
-header h1{
-	font-size: 3.8em;
-	margin: 0px;
-}
-.prenom{
-	color: #1995AD;
-}
-.devel{
-	border-bottom: 1px #1995AD solid;
-}
-
-header h2{
-	font-size: 2em;
-	margin: 0px;
-	
-}
-
-/*section*/ 
-section h2{
-	font-size: 2em;
-	border-bottom: 1px #1995AD solid;
 }
 
 ul {
@@ -125,27 +38,288 @@ ul {
     margin-bottom: 30px;
 }
 
-td{
-	border : 1px solid black;
+/*Média query*/
+@media all and (max-width: 1024px)
+{
+body{
+	width: 100%;
+
 }
+#titre{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.ecrit{
+	text-align: center;
+	padding-top: 60px;
+}
+
+.img{
+	margin-top: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.propos p  {
+	padding-left: 30px ;
+	padding-right: 30px;
+	text-align: justify;
+
+}
+
+#conteneur {
+	display: flex;
+	flex-direction: column;
+}
+
+.droite{
+	text-align: center;	
+	padding-right: 50px;
+
+}
+
+
+.contact{	
+	text-align: center;
+}
+
+}
+/*header */ 
+
+header{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#titre{
+	display: flex;
+
+}
+.img{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #00ACC1; 
+	flex: 1.5;
+}
+@media all and (min-width: 1024px){
+
+.ecrit{
+	padding-top: 60px;
+	padding-left: 50px;
+	flex: 3;
+}
+}
+header h1{
+	font-size: 3.8em;
+	margin: 0px;
+}
+.prenom{
+	color: #00ACC1;
+}
+.devel{
+	border-bottom: 1px #00ACC1 solid;
+}
+
+header h2{
+	font-size: 2em;
+	margin: 0px;
+	
+}
+
+header img{
+	align-self: center;
+	width: 200px;
+	height: 210px; 	
+	border-radius: 200%;
+}
+/*partie de gauche */
+
+.gauche {
+	display: flex; 
+	flex-direction: column;
+	background-color: #00ACC1;
+	flex:1.5;
+}
+
+.contact{
+	flex:1;
+}
+.propos{
+	flex:5;
+}
+.loisirs{flex:1;
+}
+
+
+
+aside h2{
+	background-color: #CFD8DC;
+	color: #00ACC1;
+	text-align: center;
+	font-size: 1.6em;
+	padding: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+@media all and (min-width: 1024px){
+
+aside h3, aside p  {
+	padding-left: 30px ;
+	padding-right: 30px;
+	text-align: justify;
+
+}
+
+}
+
+/*les liens*/
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color :#B2EBF2 ;
+}
+
+
+#loisir{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 40px;
+	padding-right: 40px;
+	align-self: flex-end;
+
+}
+
+#loisir .fas {
+	font-size: 2em;
+	width: 1.2em;
+	height: 1.2em;
+	color : #CFD8DC ;
+	border : 1px #CFD8DC solid ;
+	border-radius: 50%;
+	padding: 12px;
+
+}
+
+
+/*Partie de droite */
+
+.droite{
+	/*pour essais border : 1px red solid; */
+	flex: 3;
+	margin-left: 50px;
+}
+
+
+
+/*section*/ 
+.droite section h2
+{
+	font-size: 2.2em;
+	border-bottom: 1px #00ACC1 solid;
+	margin-bottom: 0px;
+}
+.droite td{
+	text-align: justify;
+}
+h2 .fas{
+	font-size: 1em;
+	color : #00ACC1;
+	padding-right: 30px;
+}
+
+
+table{
+ border-collapse: collapse;
+
+}
+
 .td1{
-	width :150px;
+	padding-top: 30px;
+	width :230px;
 }
 
 .td2{
-	width: 600px;
+	padding-top:30px;
+	font-size: 1.6em;
+	width: 550px;
+}
+
+.td3{
+	display: flex;
+	padding-left: 28px;
+}
+
+.td4{
+	padding-top: 10px;
+	width: 550px;
+}
+
+.td5{
+	display: flex;
+	padding-left: 23px;
 }
 
 td .fas{
 	font-size: 0.4em;
-	color : #1995AD;
+	color : #00ACC1;
 	padding-right: 16px;
 
 }
+
 td .far {
 	font-size: 0.8em;
-	color : #1995AD;
+	color : #00ACC1;
 	padding-right: 10px;
 }
 
+/*Expériences pro */
+.experience{
+	padding-top: 30px;
+}
+.td4 h3 {
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+	text-decoration: underline;
+}
 
+.td4 h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.td4 p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*recommandation*/
+
+.recommandation {
+	padding-top: 30px;
+	padding-bottom:50px;
+}
+
+.recommandation ul{
+	margin-top: 30px ;
+}
+
+#reco{
+	display: flex;
+	
+}
+
+.jean{
+	flex: 1;
+}
+.pierre{
+	flex: 1;
+}
+
+.email{
+	font-size: 0.9em;
+}
