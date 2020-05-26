@@ -38,53 +38,7 @@ ul {
     margin-bottom: 30px;
 }
 
-/*Média query*/
-@media all and (max-width: 1024px)
-{
-body{
-	width: 100%;
 
-}
-#titre{
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.ecrit{
-	text-align: center;
-	padding-top: 60px;
-}
-
-.img{
-	margin-top: 50px;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-
-.propos p  {
-	padding-left: 30px ;
-	padding-right: 30px;
-	text-align: justify;
-
-}
-
-#conteneur {
-	display: flex;
-	flex-direction: column;
-}
-
-.droite{
-	text-align: center;	
-	padding-right: 50px;
-
-}
-
-
-.contact{	
-	text-align: center;
-}
-
-}
 /*header */ 
 
 header{
@@ -101,18 +55,15 @@ header{
 	background-color: #00ACC1; 
 	flex: 1.5;
 }
-@media all and (min-width: 1024px){
 
-.ecrit{
-	padding-top: 60px;
-	padding-left: 50px;
-	flex: 3;
-}
-}
+
 header h1{
-	font-size: 3.8em;
-	margin: 0px;
+	font-size: 4.2em;
+	margin : 0px;
+	padding-top: 30px;
+
 }
+
 .prenom{
 	color: #00ACC1;
 }
@@ -123,7 +74,6 @@ header h1{
 header h2{
 	font-size: 2em;
 	margin: 0px;
-	
 }
 
 header img{
@@ -158,30 +108,11 @@ aside h2{
 	text-align: center;
 	font-size: 1.6em;
 	padding: 10px;
-	padding-top: 0px;
 	margin-top: 0px;
 }
 
-@media all and (min-width: 1024px){
 
-aside h3, aside p  {
-	padding-left: 30px ;
-	padding-right: 30px;
-	text-align: justify;
 
-}
-
-}
-
-/*les liens*/
-a{
-	color: black;
-	text-decoration: none;
-}
-
-a:hover{
-	color :#B2EBF2 ;
-}
 
 
 #loisir{
@@ -204,6 +135,15 @@ a:hover{
 
 }
 
+/*les liens*/
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color :#B2EBF2 ;
+}
 
 /*Partie de droite */
 
@@ -222,19 +162,23 @@ a:hover{
 	border-bottom: 1px #00ACC1 solid;
 	margin-bottom: 0px;
 }
-.droite td{
+
+.droite p{
 	text-align: justify;
 }
+
 h2 .fas{
 	font-size: 1em;
 	color : #00ACC1;
 	padding-right: 30px;
 }
 
+.formation h2{
+	margin-top: 0px;
+}
 
 table{
- border-collapse: collapse;
-
+ border-collapse: collapse;  /*colle les cellules du tableau */
 }
 
 .td1{
@@ -322,4 +266,126 @@ td .far {
 
 .email{
 	font-size: 0.9em;
+}
+
+/*MEDIAQUERY */ 
+
+@media all and (min-width: 1024px){
+	.ecrit{
+		padding-top: 60px;
+		padding-left: 50px;
+		flex: 3;
+}}
+
+@media all and (min-width: 1024px){
+	aside h3, aside p  {
+		padding-left: 30px ;
+		padding-right: 30px;
+		text-align: justify;
+	}
+}
+
+@media all and (max-width: 1024px){
+	body{
+		width: 100%;
+
+	}
+
+	#conteneur {
+		display: flex;
+		flex-direction: column;
+	}
+	/*header */
+
+	#titre{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.img{
+		margin-top: 50px;
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	header img{
+	align-self: center;
+	width: 400px;
+	height: 410px; 	
+	border-radius: 200%;
+}
+	.ecrit{
+		text-align: center;
+
+	}
+
+	header h1{
+		font-size: 9em;
+		margin-bottom: 0px;
+	}
+
+	header h2{
+		font-size: 5em;
+	}
+
+	/*Gauche*/
+
+	.gauche h2{
+		font-size: 5em;
+		margin-bottom: 40px;
+	}
+	.propos, .loisirs{
+		margin-top:40px;
+
+	}
+	.propos p  {
+		padding-left: 30px ;
+		padding-right: 30px;
+		text-align: justify;
+	}
+
+	#loisir{
+		display: flex;
+		justify-content: space-around;
+		padding-left: 40px;
+		padding-right: 40px;
+		align-self: flex-end;
+	}
+
+	#loisir .fas {
+		font-size: 4em;
+		width: 1.2em;
+		height: 1.2em;
+		color : #CFD8DC ;
+		border : 1px #CFD8DC solid ;
+		border-radius: 50%;
+		padding: 12px;
+	}
+	/*Droite*/
+	.droite section h2{
+		text-align: center;
+		font-size: 4em;
+	}
+	.formation{
+		margin-top: 50px;
+	}
+	.td1 {
+		font-size: 2em;
+	}
+	.td2{ 
+		text-align: center;
+	padding-top:30px;
+	font-size: 1.6em;
+	width: 750px;
+	}
+
+	
+
+	.droite p{
+		text-align: justify;
+	}
+
+	.contact{	
+		text-align: center;
+	}
+
 }
