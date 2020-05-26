@@ -38,53 +38,7 @@ ul {
     margin-bottom: 30px;
 }
 
-/*Média query*/
-@media all and (max-width: 1024px)
-{
-body{
-	width: 100%;
 
-}
-#titre{
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.ecrit{
-	text-align: center;
-	padding-top: 60px;
-}
-
-.img{
-	margin-top: 50px;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-
-.propos p  {
-	padding-left: 30px ;
-	padding-right: 30px;
-	text-align: justify;
-
-}
-
-#conteneur {
-	display: flex;
-	flex-direction: column;
-}
-
-.droite{
-	text-align: center;	
-	padding-right: 50px;
-
-}
-
-
-.contact{	
-	text-align: center;
-}
-
-}
 /*header */ 
 
 header{
@@ -101,13 +55,7 @@ header{
 	background-color: #00ACC1; 
 	flex: 1.5;
 }
-@media all and (min-width: 1024px){
 
-.ecrit{
-	padding-top: 60px;
-	padding-left: 50px;
-	flex: 3;
-}
 }
 header h1{
 	font-size: 3.8em;
@@ -162,16 +110,7 @@ aside h2{
 	margin-top: 0px;
 }
 
-@media all and (min-width: 1024px){
 
-aside h3, aside p  {
-	padding-left: 30px ;
-	padding-right: 30px;
-	text-align: justify;
-
-}
-
-}
 
 /*les liens*/
 a{
@@ -322,4 +261,79 @@ td .far {
 
 .email{
 	font-size: 0.9em;
+}
+
+/*MEDIAQUERY */ 
+
+@media all and (min-width: 1024px){
+	.ecrit{
+		padding-top: 60px;
+		padding-left: 50px;
+		flex: 3;
+}
+
+@media all and (min-width: 1024px){
+	aside h3, aside p  {
+		padding-left: 30px ;
+		padding-right: 30px;
+		text-align: justify;
+	}
+}
+
+@media all and (max-width: 1024px){
+	body{
+		width: 100%;
+
+	}
+
+	#conteneur {
+		display: flex;
+		flex-direction: column;
+	}
+	/*header */
+
+	#titre{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.img{
+		margin-top: 50px;
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	
+	.ecrit{
+		text-align: center;
+		padding-top: 60px;
+	}
+
+	header h1{
+		font-size: 7em;
+	}
+
+	header h2{
+		font-size: 3em;
+	}
+
+	/*Gauche*/
+
+	.propos p  {
+		padding-left: 30px ;
+		padding-right: 30px;
+		text-align: justify;
+
+	}
+
+	/*Droite*/
+	.droite{
+		text-align: center;	
+		padding-right: 50px;
+
+	}
+
+	.contact{	
+		text-align: center;
+	}
+
 }
