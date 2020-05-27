@@ -69,6 +69,12 @@ header{
 	flex: 1.5;
 }
 
+.ecrit{
+	flex: 3;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+
 header h1{
 	font-size: 4.2em;
 	margin : 0px;
