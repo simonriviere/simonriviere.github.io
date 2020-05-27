@@ -25,6 +25,9 @@ h1, h2{
 	text-transform: uppercase; /* tout en majuscule */
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+h3,h4{
+	font-weight: normal;
+}
 
 #conteneur{
 	display: flex;
@@ -38,12 +41,22 @@ ul {
     margin-bottom: 30px;
 }
 
+/*les liens*/
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color :#B2EBF2 ;
+}
 
 /*header */ 
 
 header{
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+
 #titre{
 	display: flex;
 
@@ -55,7 +68,6 @@ header{
 	background-color: #00ACC1; 
 	flex: 1.5;
 }
-
 
 header h1{
 	font-size: 4.2em;
@@ -82,7 +94,8 @@ header img{
 	height: 210px; 	
 	border-radius: 200%;
 }
-/*partie de gauche */
+
+/*PARTIE DE GAUCHE */
 
 .gauche {
 	display: flex; 
@@ -100,8 +113,6 @@ header img{
 .loisirs{flex:1;
 }
 
-
-
 aside h2{
 	background-color: #CFD8DC;
 	color: #00ACC1;
@@ -110,10 +121,6 @@ aside h2{
 	padding: 10px;
 	margin-top: 0px;
 }
-
-
-
-
 
 #loisir{
 	display: flex;
@@ -135,17 +142,8 @@ aside h2{
 
 }
 
-/*les liens*/
-a{
-	color: black;
-	text-decoration: none;
-}
 
-a:hover{
-	color :#B2EBF2 ;
-}
-
-/*Partie de droite */
+/*PARTIE DE DROITE*/
 
 .droite{
 	/*pour essais border : 1px red solid; */
@@ -154,18 +152,14 @@ a:hover{
 }
 
 
-
 /*section*/ 
-.droite section h2
-{
+.droite section h2{
 	font-size: 2.2em;
 	border-bottom: 1px #00ACC1 solid;
 	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
-.droite p{
-	text-align: justify;
-}
 
 h2 .fas{
 	font-size: 1em;
@@ -173,74 +167,69 @@ h2 .fas{
 	padding-right: 30px;
 }
 
-.formation h2{
-	margin-top: 0px;
+.droite p{
+	text-align: justify;
 }
 
-table{
- border-collapse: collapse;  /*colle les cellules du tableau */
-}
-
-.td1{
-	padding-top: 30px;
-	width :230px;
-}
-
-.td2{
-	padding-top:30px;
-	font-size: 1.6em;
-	width: 550px;
-}
-
-.td3{
+.liste{
 	display: flex;
-	padding-left: 28px;
+	margin-top: 50px;	
 }
 
-.td4{
-	padding-top: 10px;
-	width: 550px;
-}
-
-.td5{
-	display: flex;
-	padding-left: 23px;
-}
-
-td .fas{
-	font-size: 0.4em;
-	color : #00ACC1;
-	padding-right: 16px;
-
-}
-
-td .far {
+.liste .far {
 	font-size: 0.8em;
 	color : #00ACC1;
 	padding-right: 10px;
 }
 
-/*Expériences pro */
-.experience{
-	padding-top: 30px;
+.liste .fas{
+	font-size: 0.4em;
+	color : #00ACC1;
+	padding-right: 16px;
 }
-.td4 h3 {
+
+.date{
+	flex:2;
+}
+
+.date h3{
+	font-size: 1.1em;
 	padding: 0px;
 	margin: 0px;
 	font-weight: normal;
+}
+
+.date p{
+	margin-top: 2px;
+	padding-left: 28px;
+}
+
+.description{
+	flex:5;
+}
+
+.description h3{
+	margin: 0px;
+	font-size: 1.6em;
+}
+
+.description h4{
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0px;
 	text-decoration: underline;
 }
 
-.td4 h4{
+.description h5{
+	font-size: 1em;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
-.td4 p{
+.experience p{
 	margin-top: 10px;
-	margin-bottom: 10px;
 }
-
 /*recommandation*/
 
 .recommandation {
@@ -254,7 +243,6 @@ td .far {
 
 #reco{
 	display: flex;
-	
 }
 
 .jean{
@@ -268,124 +256,3 @@ td .far {
 	font-size: 0.9em;
 }
 
-/*MEDIAQUERY */ 
-
-@media all and (min-width: 1024px){
-	.ecrit{
-		padding-top: 60px;
-		padding-left: 50px;
-		flex: 3;
-}}
-
-@media all and (min-width: 1024px){
-	aside h3, aside p  {
-		padding-left: 30px ;
-		padding-right: 30px;
-		text-align: justify;
-	}
-}
-
-@media all and (max-width: 1024px){
-	body{
-		width: 100%;
-
-	}
-
-	#conteneur {
-		display: flex;
-		flex-direction: column;
-	}
-	/*header */
-
-	#titre{
-		display: flex;
-		flex-direction: column-reverse;
-	}
-
-	.img{
-		margin-top: 50px;
-		padding-bottom: 50px;
-		padding-top: 50px;
-	}
-	header img{
-	align-self: center;
-	width: 400px;
-	height: 410px; 	
-	border-radius: 200%;
-}
-	.ecrit{
-		text-align: center;
-
-	}
-
-	header h1{
-		font-size: 9em;
-		margin-bottom: 0px;
-	}
-
-	header h2{
-		font-size: 5em;
-	}
-
-	/*Gauche*/
-
-	.gauche h2{
-		font-size: 5em;
-		margin-bottom: 40px;
-	}
-	.propos, .loisirs{
-		margin-top:40px;
-
-	}
-	.propos p  {
-		padding-left: 30px ;
-		padding-right: 30px;
-		text-align: justify;
-	}
-
-	#loisir{
-		display: flex;
-		justify-content: space-around;
-		padding-left: 40px;
-		padding-right: 40px;
-		align-self: flex-end;
-	}
-
-	#loisir .fas {
-		font-size: 4em;
-		width: 1.2em;
-		height: 1.2em;
-		color : #CFD8DC ;
-		border : 1px #CFD8DC solid ;
-		border-radius: 50%;
-		padding: 12px;
-	}
-	/*Droite*/
-	.droite section h2{
-		text-align: center;
-		font-size: 4em;
-	}
-	.formation{
-		margin-top: 50px;
-	}
-	.td1 {
-		font-size: 2em;
-	}
-	.td2{ 
-		text-align: center;
-	padding-top:30px;
-	font-size: 1.6em;
-	width: 750px;
-	}
-
-	
-
-	.droite p{
-		text-align: justify;
-	}
-
-	.contact{	
-		text-align: center;
-	}
-
-}
