@@ -289,9 +289,8 @@ h2 .fas{
 .email{
 	font-size: 0.9em;
 }
-
-	@media all and (max-device-width: 480px){
-		/*GENERAL*/
+@media all and (max-width: 1024px){
+	/*GENERAL*/
 		body{
 			width: 100%;
 		}
@@ -436,4 +435,162 @@ h2 .fas{
 			text-align: center;
 		}	
 	}
+
+
+
+		@media all and (max-device-width: 480px){
+			/*GENERAL*/
+			body{
+				width: 100%;
+			}
+
+			#conteneur{
+				display: flex;
+				flex-direction: column;
+			}
+
+			#titre{
+				display: flex;
+				flex-direction: column-reverse;
+			}
+			.img{
+
+				padding-bottom: 50px;
+				padding-top: 50px;
+			}
+			
+			header img{
+				align-self: center;
+				width: 400px;
+				height: 410px; 	
+				border-radius: 200%;
+			}
+
+			.ecrit{
+				text-align: center;
+				margin-left: 0px;
+				padding-bottom: 70px;
+			}
+
+			header h1{
+				font-size: 9em;
+				padding-top: 0px;
+				margin-bottom: 0px;
+			}
+
+			header h2{
+				font-size: 5em;
+			}
+
+			/*GAUCHE*/
+
+			.gauche h2{
+				font-size: 7em;
+				margin-bottom: 40px;
+			}
+			.contact h3{
+				font-size: 3em;
+				} 
+			.contact p{
+				font-size: 2em;
+			}
+
+			.propos, .loisirs{
+				margin-top:40px;
+			}
+
+			.propos p  {
+				font-size: 2em;
+				padding-left: 30px ;
+				padding-right: 30px;
+				text-align: justify;
+			}
+			.contact{
+				text-align: center;
+			}
+
+			#loisir{
+				display: flex;
+				justify-content: space-around;
+				padding-left: 40px;
+				padding-right: 40px;
+				align-self: flex-end;
+			}
+
+			#loisir .fas {
+				font-size: 4em;
+				width: 1.2em;
+				height: 1.2em;
+				color : #CFD8DC ;
+				border : 1px #CFD8DC solid ;
+				border-radius: 50%;
+				padding: 12px;
+			}
+
+			/*DROITE */
+			.droite{
+				margin-left: 0px;
+			}
+			.droite section h2{
+				text-align: center;
+				font-size: 4em;
+			}
+
+			.formation{
+				margin-top: 50px;
+			}
+
+			.liste{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.date{
+				font-size: 1.1em;
+			}
+			.date .far, .date .far{
+				padding-right: 20px;
+			}
+			.date p{
+				padding-left: 0px;
+			}
+			.liste{
+				text-align: center;
+			}
+			.description h3{
+				font-size:5em;
+		
+			}
+			.description h4{
+				font-size: 1.2em;
+			}
+			.description h5{
+				font-size: 1em;
+
+			}
+			.description p{
+				font-size: 2em;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+
+			#reco{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+				padding-top: 30px;
+				font-size: 2em;
+			}
+
+			.jean p{
+				text-align: center;
+			}
+			.pierre {
+				padding-top: 20px;
+			}
+			.pierre p{
+				text-align: center;
+			}	
+		}
 
