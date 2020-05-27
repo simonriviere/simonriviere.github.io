@@ -438,7 +438,6 @@ h2 .fas{
 
 
 
-
 		@media all and (max-device-width: 480px){
 			/*GENERAL*/
 			body{
@@ -547,7 +546,7 @@ h2 .fas{
 				align-items: center;
 			}
 			.date{
-				font-size: 1.1em;
+				font-size: 1.5em;
 			}
 			.date .far, .date .fas{
 				padding-right: 10px;
