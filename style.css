@@ -339,12 +339,6 @@ h2 .fas{
 		
 				margin-bottom: 40px;
 			}
-			.contact h3{
-			
-				} 
-			.contact p{
-				
-			}
 
 			.propos, .loisirs{
 				margin-top:40px;
@@ -393,8 +387,7 @@ h2 .fas{
 				flex-direction: column;
 				align-items: center;
 			}
-			.date{
-			}
+		
 			.date .far, .date .fas{
 				padding-right: 5px;
 			}
@@ -404,14 +397,7 @@ h2 .fas{
 			.liste{
 				text-align: center;
 			}
-			.description h3{
-		
-			}
-			.description h4{
-			}
-			.description h5{
 
-			}
 			.description p{
 				padding-left: 20px;
 				padding-right: 20px;
@@ -440,42 +426,11 @@ h2 .fas{
 
 		@media all and (max-device-width: 480px){
 			/*GENERAL*/
-			body{
-				width: 100%;
-			}
 
-			#conteneur{
-				display: flex;
-				flex-direction: column;
-			}
-
-			#titre{
-				display: flex;
-				flex-direction: column-reverse;
-			}
-			.img{
-
-				padding-bottom: 50px;
-				padding-top: 50px;
-			}
-			
-			header img{
-				align-self: center;
-				width: 400px;
-				height: 410px; 	
-				border-radius: 200%;
-			}
-
-			.ecrit{
-				text-align: center;
-				margin-left: 0px;
-				padding-bottom: 70px;
-			}
 
 			header h1{
 				font-size: 9em;
-				padding-top: 0px;
-				margin-bottom: 0px;
+
 			}
 
 			header h2{
@@ -486,7 +441,6 @@ h2 .fas{
 
 			.gauche h2{
 				font-size: 7em;
-				margin-bottom: 40px;
 			}
 			.contact h3{
 				font-size: 3em;
@@ -495,68 +449,26 @@ h2 .fas{
 				font-size: 2em;
 			}
 
-			.propos, .loisirs{
-				margin-top:40px;
-			}
 
 			.propos p  {
 				font-size: 2em;
-				padding-left: 30px ;
-				padding-right: 30px;
-				text-align: justify;
-			}
-			.contact{
-				text-align: center;
 			}
 
-			#loisir{
-				display: flex;
-				justify-content: space-around;
-				padding-left: 40px;
-				padding-right: 40px;
-				align-self: flex-end;
-			}
-
+			
 			#loisir .fas {
 				font-size: 4em;
-				width: 1.2em;
-				height: 1.2em;
-				color : #CFD8DC ;
-				border : 1px #CFD8DC solid ;
-				border-radius: 50%;
-				padding: 12px;
+	
 			}
 
 			/*DROITE */
-			.droite{
-				margin-left: 0px;
-			}
 			.droite section h2{
-				text-align: center;
 				font-size: 4em;
 			}
 
-			.formation{
-				margin-top: 50px;
-			}
-
-			.liste{
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-			}
 			.date{
 				font-size: 1.5em;
 			}
-			.date .far, .date .fas{
-				padding-right: 10px;
-			}
-			.date p{
-				padding-left: 0px;
-			}
-			.liste{
-				text-align: center;
-			}
+			
 			.description h3{
 				font-size:5em;
 		
@@ -570,27 +482,12 @@ h2 .fas{
 			}
 			.description p{
 				font-size: 2em;
-				padding-left: 20px;
-				padding-right: 20px;
 			}
 
 			#reco{
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				text-align: center;
-				padding-top: 30px;
 				font-size: 2em;
 			}
 
-			.jean p{
-				text-align: center;
-			}
-			.pierre {
-				padding-top: 20px;
-			}
-			.pierre p{
-				text-align: center;
-			}	
+
 		}
 
