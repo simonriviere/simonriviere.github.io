@@ -273,15 +273,19 @@ h2 .fas{
 
 #reco{
 	display: flex;
+
 }
 
-.jean{
+#reco p{
+	font-size: 1em;
+}
+
+.jean {
 	flex: 1;
 }
 .pierre{
 	flex: 1;
 }
-
 .email{
 	font-size: 0.9em;
 }
@@ -401,7 +405,9 @@ h2 .fas{
 			font-size:4em;
 	
 		}
-
+		.description h4{
+			font-size: 1em;
+		}
 		.description h5{
 			font-size: 0.9em;
 
@@ -416,9 +422,18 @@ h2 .fas{
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			text-align: center;
+			padding-top: 30px;
 		}
-		.jean,.pierre{
-		
+
+		.jean p{
+			text-align: center;
 		}
+		.pierre {
+			padding-top: 20px;
+		}
+		.pierre p{
+			text-align: center;
+		}	
 	}
 
