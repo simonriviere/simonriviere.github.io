@@ -479,6 +479,7 @@ h2 .fas{
 			}
 
 			.description ul{
+				list-style-type: none;
 				font-size: 2em;
 	
 			}
