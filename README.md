@@ -13,7 +13,7 @@ Réalisation de mon CV en site web.
 
 
 ## Auteurs
-Listez le(s) auteur(s) du projet ici !
+
 * **Simon RIVIERE** (https://github.com/simonriviere)
 
 
