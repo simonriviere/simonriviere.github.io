@@ -203,7 +203,7 @@ h2 .fas{
 
 .liste{
 	display: flex;
-	margin-top: 50px;	
+	margin-top: 40px;	
 }
 
 .liste .far {
@@ -240,10 +240,9 @@ h2 .fas{
 
 .description ul{
 	padding-left: 13px;
+	margin-bottom: 0px;
 }
-.description li{
-	padding-bottom: 10px;
-}
+
 .description h3{
 	margin: 0px;
 	font-size: 1.6em;
@@ -262,7 +261,9 @@ h2 .fas{
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
-
+.experience{
+	padding-top: 14px;
+}
 .experience p{
 	margin-top: 10px;
 }
@@ -471,7 +472,7 @@ h2 .fas{
 
 			/*DROITE */
 			.droite section h2{
-				font-size: 5em;
+				font-size: 4.8em;
 			}
 
 			.date{
@@ -484,7 +485,7 @@ h2 .fas{
 	
 			}
 			.description h3{
-				font-size:4em;
+				font-size:3.6em;
 		
 			}
 			.description h4{
