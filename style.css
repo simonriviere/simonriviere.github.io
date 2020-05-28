@@ -33,7 +33,7 @@ h3,h4{
 	display: flex;
 }
 
-ul {
+.loisirs ul {
 	list-style-type: none;
     padding-left:  0px;
     margin-top: 6px;
@@ -238,6 +238,12 @@ h2 .fas{
 	flex:5;
 }
 
+.description ul{
+	padding-left: 13px;
+}
+.description li{
+	padding-bottom: 10px;
+}
 .description h3{
 	margin: 0px;
 	font-size: 1.6em;
@@ -469,6 +475,13 @@ h2 .fas{
 				font-size: 1.8em;
 			}
 			
+			.description ul{
+				font-size: 2em;
+				padding-left: 60px;
+				padding-right: 30px;
+				text-align: justify;
+				align-items: center;
+			}
 			.description h3{
 				font-size:5em;
 		
