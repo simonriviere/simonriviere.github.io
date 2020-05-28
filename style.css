@@ -382,7 +382,10 @@ h2 .fas{
 			}
 			.droite section h2{
 				text-align: center;
+				margin-left: 30px;
+				margin-right: 30px;
 			}
+	
 
 			.formation{
 				margin-top: 50px;
@@ -468,7 +471,7 @@ h2 .fas{
 
 			/*DROITE */
 			.droite section h2{
-				font-size: 4em;
+				font-size: 5em;
 			}
 
 			.date{
@@ -477,12 +480,10 @@ h2 .fas{
 
 			.description ul{
 				font-size: 2em;
-				padding-left: 30px;
-				padding-right: 30px;
-				text-align: center;
+	
 			}
 			.description h3{
-				font-size:5em;
+				font-size:4em;
 		
 			}
 			.description h4{
