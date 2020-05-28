@@ -474,13 +474,12 @@ h2 .fas{
 			.date{
 				font-size: 1.8em;
 			}
-			
+
 			.description ul{
 				font-size: 2em;
-				padding-left: 60px;
+				padding-left: 30px;
 				padding-right: 30px;
-				text-align: justify;
-				align-items: center;
+				text-align: center;
 			}
 			.description h3{
 				font-size:5em;
