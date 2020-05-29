@@ -14,10 +14,10 @@ font-family: 'Open Sans Condensed', sans-serif;
 @font-face
 {
     font-family: 'Dayrom';
-    src: url('polices/Dayrom');
-    src: url('polices/Dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/Dayrom.woff') format('woff'),
-         url('polices/Dayrom.ttf') format('truetype');
+    src: url('polices/dayrom');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
