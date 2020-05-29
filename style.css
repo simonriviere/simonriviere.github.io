@@ -17,8 +17,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     src: url('polices/Dayrom');
     src: url('polices/Dayrom.eot?#iefix') format('embedded-opentype'),
          url('polices/Dayrom.woff') format('woff'),
-         url('polices/Dayrom.ttf') format('truetype'),
-         url('polices/Dayrom.svg#BallparkWeiner') format('svg');
+         url('polices/Dayrom.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -408,11 +407,9 @@ h2 .fas{
 			}
 		
 			.date .far, .date .fas{
-				padding-right: 5px;
+				padding-right: 15px;
 			}
-			.date p{
-				padding-left: 0px;
-			}
+		
 			.liste{
 				text-align: center;
 			}
@@ -448,18 +445,18 @@ h2 .fas{
 
 
 			header h1{
-				font-size: 9em;
+				font-size: 6em;
 
 			}
 
 			header h2{
-				font-size: 5em;
+				font-size: 3em;
 			}
 
 			/*GAUCHE*/
 
 			.gauche h2{
-				font-size: 7em;
+				font-size: 5em;
 			}
 			.contact h3{
 				font-size: 3em;
@@ -481,7 +478,7 @@ h2 .fas{
 
 			/*DROITE */
 			.droite section h2{
-				font-size: 4.8em;
+				font-size: 3em;
 			}
 
 			.date{
@@ -494,15 +491,15 @@ h2 .fas{
 	
 			}
 			.description h3{
-				font-size:3.6em;
+				font-size:2.5em;
 		
 			}
 			.description h4{
 				text-decoration: none;
-				font-size: 2.5em;
+				font-size: 2em;
 			}
 			.description h5{
-				font-size: 2em;
+				font-size: 1em;
 
 			}
 			.description p{
