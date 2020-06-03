@@ -219,20 +219,21 @@ h3 .fas{
 .liste .fas{
 	font-size: 0.4em;
 	color : #00ACC1;
-	padding-right: 16px;
+	padding-right: 10px;
 }
 
 .date{
 	flex:2;
 }
 
-time{
-	font-size: 1.1em;
-}
 
 .date p{
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+.ville{
 	margin-top: 2px;
-	padding-left: 28px;
+	padding-left: 23px;
 }
 
 .description{
