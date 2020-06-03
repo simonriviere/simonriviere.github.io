@@ -5,6 +5,7 @@
  gris clair #F5F5F5
 */
 
+
 @font-face
 {
     font-family: 'Dayrom';
@@ -211,18 +212,22 @@ h3 .fas{
 }
 
 .liste .far {
-	font-size: 0.8em;
 	color : #00ACC1;
 	padding-right: 10px;
 }
 
 .liste .fas{
-	font-size: 0.4em;
+	font-size: 0.6em;
 	color : #00ACC1;
 	padding-right: 10px;
+	padding-top: 4px;
+	padding-left: 3px;
 }
 
-.date{
+
+
+.puce{
+	display: flex;
 	flex:2;
 }
 
@@ -233,7 +238,7 @@ h3 .fas{
 }
 .ville{
 	margin-top: 2px;
-	padding-left: 23px;
+
 }
 
 .description{
@@ -273,9 +278,7 @@ h3 .fas{
 .experience{
 	padding-top: 14px;
 }
-.experience p{
-	margin-top: 10px;
-}
+
 /*recommandation*/
 
 .recommandation {
@@ -305,7 +308,7 @@ h3 .fas{
 .email{
 	font-size: 0.9em;
 }
-@media all and (max-width: 1024px){ /*1023px car 1024 c'est un ordinateur*/ 
+@media all and (max-width: 1023px){ /*1023px car 1024 c'est un ordinateur*/ 
 			/*GENERAL*/
 			body{
 				width: 100%;
@@ -355,8 +358,7 @@ h3 .fas{
 			}
 
 			.propos p  {
-				padding-left: 30px ;
-				padding-right: 30px;
+			
 				text-align: justify;
 			}
 			.contact{
@@ -433,46 +435,63 @@ h3 .fas{
 			}	
 		}
 
+			@media all and (max-width: 480px){
+				/*GENERAL*/
 
 
-		@media all and (max-width: 480px){
-			/*GENERAL*/
+				header h1{
+					font-size: 2.2em;
+				}
+				header h2{
+					font-size : 1.8em;
+				}
 
 
-			header h1{
-				font-size: 2.5em;
-			}
+				/*GAUCHE*/
 
+			
+				.contact{
+					margin-bottom: 0px;
+				}
+				
 
-			/*GAUCHE*/
+				/*DROITE */
 
-		
-			.contact{
-				margin-bottom: 0px;
-			}
+				.droite section h3{
+					font-size:1.3em ;
+				}
+
+				h3 .fas{
+					font-size:1em;
+					padding-right: 15px;
+				}
+				.puce{
+					padding-bottom: 10px;
+				}
+				.liste .far{
+					display: flex;
+					align-items: center;
+				}
+				.liste .fas{
+					display: flex;
+					align-items: center;
+				}
+				.date p{
+					margin:0px;
+				}
+			
+				.description ul{
+					list-style-type: none;
+				}
+				.description h3{
+					font-size:1.2em;
+			
+				}
+				.description h4{
+					font-size: 1.15em;
+					text-decoration: none;
+				}
 			
 
-			/*DROITE */
-
-			.droite section h2{
-				font-size:1.5em ;
 			}
-
-			h2 .fas{
-				padding-right: 15px;
-			}
-			
-
-			.description ul{
-				list-style-type: none;
-			}
-			.description h3{
-				font-size:1.2em;
-		
-			}
-			.description h4{
-				text-decoration: none;
-			}
-			
-		}
 
