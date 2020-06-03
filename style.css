@@ -303,7 +303,7 @@ h2 .fas{
 .email{
 	font-size: 0.9em;
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px){ /*1023px car 1024 c'est un ordinateur*/ 
 			/*GENERAL*/
 			body{
 				width: 100%;
@@ -325,16 +325,14 @@ h2 .fas{
 			}
 			
 			header img{
-				align-self: center;
-				width: 400px;
-				height: 410px; 	
+				align-self: center;	
 				border-radius: 200%;
 			}
 
 			.ecrit{
 				text-align: center;
 				margin-left: 0px;
-				padding-bottom: 70px;
+				padding-bottom: 50px;
 			}
 
 			header h1{
@@ -402,7 +400,7 @@ h2 .fas{
 			}
 		
 			.date .far, .date .fas{
-				padding-right: 15px;
+				padding-right: 10px;
 			}
 		
 			.liste{
@@ -435,77 +433,84 @@ h2 .fas{
 
 
 
-		@media all and (max-device-width: 480px){
+		@media all and (max-width: 480px){
 			/*GENERAL*/
 
 
 			header h1{
-				font-size: 6em;
+				font-size: 3em;
 
 			}
 
 			header h2{
-				font-size: 3em;
+
 			}
 
 			/*GAUCHE*/
 
 			.gauche h2{
-				font-size: 5em;
+				font-size: ;
+			}
+			.contact{
+				margin-bottom: 0px;
 			}
 			.contact h3{
-				font-size: 3em;
+				font-size: ;
 				} 
 			.contact p{
-				font-size: 2em;
+				font-size:;
 			}
 
 
 			.propos p  {
-				font-size: 2em;
+				font-size: ;
 			}
 
 			
 			#loisir .fas {
-				font-size: 4em;
+				font-size: ;
 	
 			}
 
 			/*DROITE */
+
 			.droite section h2{
-				font-size: 3em;
+				font-size:1.5em ;
 			}
 
+			h2 .fas{
+				padding-right: 15px;
+			}
 			.date{
-				font-size: 2em;
+				font-size: ;
 			}
 
 			.description ul{
 				list-style-type: none;
-				font-size: 2em;
+				font-size: ;
 	
 			}
 			.description h3{
-				font-size:2.5em;
+				font-size:1.2em;
 		
 			}
 			.description h4{
 				text-decoration: none;
-				font-size: 2em;
+				font-size: ;
 			}
 			.description h5{
-				font-size: 1em;
+				font-size: ;
 
 			}
 			.description p{
-				font-size: 2em;
+				font-size: ;
 			}
 			.experience ul{
-				margin-top: 5px;
+				margin-top: ;
 			}
 
 			#reco{
-				font-size: 2em;
+				font-size: ;
 			}
 
 
