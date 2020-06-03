@@ -10,16 +10,16 @@
 </head>
 
 <body >
-		<header id="titre">
-			
-			<div class="img"><img src="img/photoIdentité-3.jpg" alt="Photo de Simon rivière" > </div>
-			<div class="ecrit">
-				<h1><span class="prenom"> simon </span> rivière </h1>
-				<h2><span class="devel"> Dével</span>oppeur web </h2>
-			</div>
-		</header>
+	<header id="titre">
+		
+		<div class="img"><img src="img/photoIdentité-3.jpg" alt="Photo de Simon rivière" > </div>
+		<div class="ecrit">
+			<h1><span class="prenom"> simon </span> rivière </h1>
+			<h2><span class="devel"> Dével</span>oppeur web </h2>
+		</div>
+	</header>
 
-	<div id = "conteneur">
+	<div id = "conteneur">	
 
 	<aside class = "gauche">
 	
@@ -63,18 +63,18 @@
 
 
 
-	<div class="droite"> <!--un main plutot que div ? -->	
+	<main class="droite">	
 
 		<section class="formation">
 			<h3 > <i class="fas fa-graduation-cap"></i>formation</h3>
 
-			<div class="liste">  <!-- article -->
-				<aside class="date"> <!--balise pour date time //// modifier aside par div  -->
-					<h3><i class="far fa-dot-circle"></i> 2020 </h3> <!--remplacer h3 par time-->
+			<article class="liste"> 
+				<div class="date">
+					<time><i class="far fa-dot-circle"></i> 2020 </time> 
 					<p>Mirepoix </p>
-				</aside>
+				</div>
 
-				<article class="description"> <!--div-->
+				<div class="description"> <!--div-->
 
 					<h4><a href="https://openclassrooms.com/fr/paths/185-developpeur-web" title="Présentation de la formation"  target="_blank" >Openclassrooms </a> </h4>
 						<h5>Développeur web</h5>	
@@ -86,80 +86,81 @@
 							Organiser et gérer la base de données.
 						</p> 
 				
-				</article>
-			</div>
+				</div>
+			</article>
 
-			<div class="liste">
-				<aside class="date">
-					<h3><i class="fas fa-circle"></i> 2011-2013 </h3>
+			<article class="liste">
+				<div class="date">
+					<time><i class="fas fa-circle"></i> 2011-2013 <time>
 					<p>Toulouse</p>
-				</aside>
+				</div>
 
-				<article class="description">
+				<div class="description">
 					<h4> Lycée St Joseph </h4>
 						<h5>BTS électrotechnique</h5>	
 						<p>Un technicien supérieur en électrotechnique peut concevoir, organiser, réaliser et assurer la conduite ou la maintenance d’installations électriques de production d’énergie, de biens ou encore de services.</p>
 						<p>J'ai réalisé mon BTS en alternance, ce qui m'a permis de faire mes premiers pas dans le monde du travail plus jeunes tout en continuant mes études.</p>
-				</article>
-			</div>
+				</div>
+			</article>
 
 		</section>
 
 		<section class="experience">
 			<h3><i class="fas fa-suitcase-rolling"></i> expérience professionelle</h3>
 
-			<div class="liste">
-				<aside class="date">
-					<h3><i class="far fa-dot-circle"></i>  2013-2019 </h3>
+			<article class="liste">
+				<div class="date">
+					<time><i class="far fa-dot-circle"></i>  2013-2019 </time>
 					<p>Toulouse</p>
-				</aside>
+				</div>
 
-				<article class="description">
+				<div class="description">
 					<h4>ENGIE</h4>
 					<h5>Chef de chantier - Électricien</h5>
 					<p>En tant que chef de chantier, j'ai réalisé différentes taches : Gestion des sous-traitants ; Gestion de stock ; Câblage du courant faible (SSI, GTC) : Câblage armoire divisionnaire ; Mise en service et dépannage du courant fort ; Câblages et programmation du contrôle d’accès ; Câblage et programmation de l’anti-intrusion ; Installation d’alarme incendie. </p>
-				</article>
-			</div>
+				</div>
+			</article>
 
-			<div class="liste">
-				<aside class="date">
-					<h3><i class="fas fa-circle"></i>  2013-2019 </h3>
+			<article class="liste">
+				<div class="date">
+					<time><i class="fas fa-circle"></i>  2013-2019 </time>
 					<p>Toulouse</p>
-				</aside>
+				</div>
 
-				<article class="description">
+				<div class="description">
 					<h4>ENGIE</h4>
 					<h5>Chef d'équipe - Électricien</h5>
 					<p>En tant que chef d'équipe, j'ai réalisé différentes taches : suivis de banches et planchers ; Réalisation chemin de cable et tirage de cable ; Câblage TGBT et armoire divisionnaire ; Mise en service et dépannage de la GTC.
-				</article>
-			</div>
+				</div>
+				
+			</article>
 
 		</section>
 
 		<section class="recommandation">
 			<h3> <i class="fas fa-pencil-alt"></i> recommandation</h3>
-			
-		<div id= "reco">
-			<article class="jean">
-			
-				<h4>JEAN DE LA FONTAINE</h4>
-				<p>Poète, Académie française</p>
-				<p>téléphone</p>
-				<p class="email">jean@email.com</p>
 				
-			</article>
-
-			<article class="pierre">
+			<div id= "reco">
+				<article class="jean">
 				
-					<h4>PIERRE ROULE</h4>
-					<p>Directeur, Montagne</p>
+					<h4>JEAN DE LA FONTAINE</h4>
+					<p>Poète, Académie française</p>
 					<p>téléphone</p>
-					<p class="email">pierre@email.com</p>
-				
-			</article>
-		</div>	
-	</section>
-	</div>
+					<p class="email">jean@email.com</p>
+					
+				</article>
+
+				<article class="pierre">
+					
+						<h4>PIERRE ROULE</h4>
+						<p>Directeur, Montagne</p>
+						<p>téléphone</p>
+						<p class="email">pierre@email.com</p>
+					
+				</article>
+			</div>	
+		</section>
+	</main>
 </div>
 
 </body>
