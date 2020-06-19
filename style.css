@@ -1,10 +1,4 @@
-﻿/*Mémo couleurs
- bleu foncé #00ACC1
- bleu clair #B2EBF2
- gris foncé #CFD8DC
- gris clair #F5F5F5
-*/
-
+﻿
 
 @font-face
 {
@@ -35,13 +29,6 @@ h4,h5{
 
 #conteneur{
 	display: flex;
-}
-
-.loisirs ul {
-	list-style-type: none;
-    padding-left:  0px;
-    margin-top: 6px;
-    margin-bottom: 30px;
 }
 
 /*les liens*/
@@ -143,10 +130,6 @@ header img{
 .propos p{
 	text-align: justify;
 }
-
-.loisirs{flex:1;
-}
-
 aside h3{
 	background-color: #CFD8DC;
 	color: #00ACC1;
@@ -155,6 +138,20 @@ aside h3{
 	padding: 10px;
 	margin-top: 0px;
 }
+
+.loisirs{flex:1;
+	
+}
+.loisirs h3{
+	margin-bottom: 35px;
+}
+.loisirs ul {
+	list-style-type: none;
+    padding-left:  0px;
+    margin-top: 6px;
+    margin-bottom: 35px;
+}
+
 
 #loisir{
 	display: flex;
@@ -224,13 +221,10 @@ h3 .fas{
 	padding-left: 3px;
 }
 
-
-
 .puce{
 	display: flex;
 	flex:2;
 }
-
 
 .date p{
 	margin-top: 0px;
@@ -264,13 +258,6 @@ h3 .fas{
 
 }
 
-.description h6{
-
-	font-size: 1em;
-	margin-top: 10px;
-	margin-bottom: 0px;
-}
-
 .description p{
 	margin-top: 10px;
 	margin-bottom: 0px;
@@ -292,11 +279,14 @@ h3 .fas{
 
 #reco{
 	display: flex;
-
+	margin-top: 20px;
 }
-
+#reco h4{
+	margin-bottom: 5px;
+}
 #reco p{
 	font-size: 1em;
+	margin: 2px;
 }
 
 .jean {
@@ -308,6 +298,8 @@ h3 .fas{
 .email{
 	font-size: 0.9em;
 }
+
+
 @media all and (max-width: 1023px){ /*1023px car 1024 c'est un ordinateur*/ 
 			/*GENERAL*/
 			body{
